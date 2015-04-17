@@ -5,18 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "gulp build"
+    "build": "gulp build",
+    "watch": "gulp watch"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/openmusic/audio-node-template"
   },
   "keywords": [
-    "web",
-    "audio",
-    "samples",
-    "buffer",
-    "buffersource"
+    "web audio"
   ],
   "author": "sole",
   "license": "Apache 2",
@@ -28,5 +25,8 @@
     "gulp": "^3.8.9",
     "openmusic-demo-gulp-tasks": "^1.2.0",
     "setter-getterify": "^1.0.0"
+  },
+  "devDependencies": {
+    "openmusic-oscilloscope": "^1.0.0"
   }
 }
