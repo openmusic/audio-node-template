@@ -46,6 +46,7 @@ Create an instance of the node by passing it an audio context:
 
 ```javascript
 var audioContext = new AudioContext();
+var AudioNode = require('AudioNode');
 var audioNode = AudioNode(audioContext);
 ```
 
