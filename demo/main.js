@@ -1,3 +1,7 @@
+// Loads the Web Components polyfill, so people using browsers without
+// built-in Web Components support won't get errors
+require('webcomponents-lite');
+
 require('openmusic-oscilloscope').register('openmusic-oscilloscope');
 
 var ac = new AudioContext();
